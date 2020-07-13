@@ -6,7 +6,7 @@ function initMap() {
   var map = new google.maps.Map(
       document.querySelector('.map'), {zoom: 4, center: crp});
   // The marker, positioned at location mentione
-  var marker = new google.maps.Marker({position: uluru, map: map});
+  var marker = new google.maps.Marker({position: crp, map: map});
 }
 
 // Sticky Menu Background

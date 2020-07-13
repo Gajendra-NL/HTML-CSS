@@ -141,13 +141,13 @@ p {
 }
 
 #showcase .showcase-content {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 rem;
+  height: 100%;
+  padding: 0 2rem;
   /* Overlay */
   position: absolute;
   top: 64px;
